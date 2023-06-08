@@ -1,0 +1,56 @@
+
+
+
+.statistics {
+    background-color: bisque;
+    text-align: center;
+}
+
+
+.title {
+
+}
+
+
+.list { 
+    background-color: aqua;
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+}
+
+
+
+.item {
+
+
+}
+.item:nth-child(1) {
+    background-color: brown;
+}
+.item:nth-child(2) {
+    background-color: rgb(67, 78, 102);
+}
+.item:nth-child(3) {
+    background-color: rgb(89, 42, 165);
+}
+.item:nth-child(4) {
+    background-color: rgb(165, 132, 42);
+}
+.item:nth-child(5) {
+    background-color: rgb(165, 42, 93);
+}
+
+
+
+
+.label {
+
+}
+
+
+.procentage {
+
+}

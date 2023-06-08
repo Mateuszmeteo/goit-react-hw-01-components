@@ -1,0 +1,48 @@
+.tableCont{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+}
+
+
+.tableDiv {
+    width: 80%;
+    
+}
+
+
+.tableMain {
+    border: 1px solid black;
+    /* box-shadow:10px black; */
+    text-align: center;
+    width: 100%;
+}
+
+.tableHead {
+    background-color: aquamarine;
+    color:white;
+    font-size: 400;
+    text-transform: uppercase;
+}
+
+
+.tableBody {
+    background-color: aqua;
+
+}
+
+.tableRows {
+    height: 60px;
+}
+
+
+
+
+.tableBody tr:nth-child(even) {
+    background-color: darkgrey;
+}
+
+
+.tableItemType {
+    text-transform:capitalize;
+}
